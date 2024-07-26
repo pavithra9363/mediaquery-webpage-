@@ -1,0 +1,171 @@
+body{
+background-image: url(./IMG-20240710-WA0001.jpg);
+background-repeat:no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+height: 100vh;
+/* background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5));  */
+
+}
+.mediaQuary{
+    margin-left:180px;
+    margin-top: 30px;
+    
+   }
+  
+.nav{
+    
+    display: inline; 
+     color: white;
+     padding-left:20px;
+     padding-right:20px;
+     padding-top:10px;
+     padding-bottom:10px;
+     font-size: 20px;
+     margin-top: 40px;
+     margin-left: 10px;
+    
+    
+     
+}
+.home,.data1{
+    background-color: white;
+    color: black;
+}
+
+.two{
+   margin-left: 1070px;
+}
+.cook{
+    font-size: 20px;
+    color:white;
+    padding: 15px;
+
+
+}
+
+.nav:hover{
+    background-color:white;
+    color: black;
+
+}
+
+.logo{
+    position: absolute; 
+    left:40px ;
+    top: 10px;
+    
+
+}
+.recipe{
+    margin-top:120px;
+    margin-left:360px;
+    font-size: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+.three{
+    margin-left: 380px;
+    margin-top:0px;
+    
+}
+
+
+.base{
+    display: inline;
+    color: whitesmoke;
+    border:2px  solid white;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin:2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+
+
+
+}
+.base:hover{
+    background-color: white;
+    color: black;
+}
+
+ @media screen and (max-width: 480px) {
+ 
+.mediaQuary{
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 130px;
+    }        
+
+
+.nav{
+    display: block;
+    font-size: 20px;
+    top: 20px;
+    margin-top: 20px;
+
+}
+.logo{
+    left:200px;
+    top: 10px;
+   
+
+}
+.two{
+     
+     margin-left: 0px;
+     padding-left: 200px;
+}
+.cook{
+    
+    margin-left: 0px;
+    padding-top:5px;
+ }       
+
+ .recipe{
+    margin-left:0px ;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    /* padding-top: 200px; */
+
+
+ } 
+ .base{
+    position: relative;
+    left: 130px;
+    align-content: center;
+    top:10px;
+    padding-top: 10px;
+    display: block;
+    width: 150px;
+
+    /* margin-top: 20px; */
+    
+    
+
+}
+.watch{
+    margin-top: 20px;
+}
+.skill{
+    margin-top: 20px;
+}
+.learn{
+    margin-top: 20px;
+}
+ .three{
+    
+    margin-left: 0%;
+
+   
+   
+    
+
+}
+
+ 
+ }  
